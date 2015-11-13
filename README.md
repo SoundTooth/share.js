@@ -3,8 +3,8 @@
 ## Description
 - summary: A library of javasciprt to integrate(整合) different share components of popular social platforms into one, with different APIs provided by them.
 - support: qq, qzone, weibo, tieba, tencent weibo, renren
+- license: MIT
 
-<br />
 <br />
 <br />
 
@@ -73,3 +73,12 @@ share.initTencentWeibo(appkey, $('#share-tencentweibo'), title, image);
 ## Demo
 
 - [**click here to see**](http://aleen42.github.io/example/share.js/sample.html)
+
+<br />
+<br />
+<br />
+
+## Download
+
+- <a href="https://raw.githubusercontent.com/SoundTooth/share.js/master/src/share.min.js" target="_blank" download><strong>click here to download the src javascript file</strong></a>
+
