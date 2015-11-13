@@ -65,3 +65,11 @@ share.initTieba($('#share-tieba'), title, image);
  */
 share.initTencentWeibo(appkey, $('#share-tencentweibo'), title, image);
 ```
+
+<br />
+<br />
+<br />
+
+## Demo
+
+- [**click here to see**](http://aleen42.github.io/example/share.js/sample.html)
