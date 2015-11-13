@@ -80,5 +80,5 @@ share.initTencentWeibo(appkey, $('#share-tencentweibo'), title, image);
 
 ## Download
 
-- <a href="https://raw.githubusercontent.com/SoundTooth/share.js/master/src/share.min.js" target="_blank" download><strong>click here to download the src javascript file</strong></a>
+- <a href="https://raw.githubusercontent.com/SoundTooth/share.js/master/src/share.min.js" target="_blank" download="share.min.js"><strong>click here to download the src javascript file</strong></a>
 
