@@ -1,2 +1,67 @@
 # share.js
-Share Components in Html with qzone, qq, weibo, renren, etc.
+
+## Description
+- summary: A library of javasciprt to integrate(整合) different share components of popular social platforms into one, with different APIs provided by them.
+- support: qq, qzone, weibo, tieba, tencent weibo, renren
+
+<br />
+<br />
+<br />
+
+## How to use? 
+
+#### 1. Import the Javascript Files
+
+```html
+<script type="text/javascript" src="./src/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="./src/share.min.js"></script>
+```
+
+#### 2. Initialize share components
+
+##### qq
+
+```js
+/**
+ * @param {[type]} $('#share-qq')	[which is an object you want to bind this event]
+ */
+share.initTencent('qq', $('#share-qq'), title, image); 
+```
+
+##### qzone
+
+```js
+/**
+ * @param {[type]} $('#share-qzone')	[which is an object you want to bind this event]
+ */
+share.initTencent('qzone', $('#share-qzone'), title, image);
+```
+
+##### weibo
+
+```js
+/**
+ * @param {[type]} appkey	[which you should apply for your website in http://open.weibo.com/connect]
+ * @param {[type]} $('#share-weibo')	[which is an object you want to bind this event]
+ */
+share.initWeibo(appkey, $('#share-weibo'), title, image);
+```
+
+##### tieba
+
+```js
+/**
+ * @param {[type]} $('#share-tieba')	[which is an object you want to bind this event]
+ */
+share.initTieba($('#share-tieba'), title, image); 
+```
+
+##### tencent weibo
+
+```js
+/**
+ * @param {[type]} appkey	[which you should apply for your website in http://open.weibo.com/connect]
+ * @param {[type]} $('#share-tencentweibo')	[which is an object you want to bind this event]
+ */
+share.initTencentWeibo(appkey, $('#share-tencentweibo'), title, image);
+```
